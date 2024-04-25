@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d43f48-4b2c-4838-9c82-636f2299d3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_seminars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_seminars.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
     "Python.task4.executor": "Run",
     "Python.task_0.executor": "Run",
     "Python.task_1.executor": "Run",
+    "Python.task_2.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_5.executor": "Run",
     "Python.task_7.executor": "Run",
