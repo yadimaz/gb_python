@@ -10,11 +10,17 @@ n=16
 16
 '''
 n = 1024
-en = 0
-flag = True
-while flag:
-    res = (2 ** en)
-    flag = res <= n
-    if flag:
-        print(res)
-    en += 1
+# en = 0
+# flag = True
+# while flag:
+#     res = (2 ** en)
+#     flag = res <= n
+#     if flag:
+#         print(res)
+#     en += 1
+#
+for en in range(n):
+    res = 2 ** en
+    if res > n:
+        break
+    print(res)
