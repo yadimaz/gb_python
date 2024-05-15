@@ -23,13 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2fMEzwRZ8Si6jUg11rT9hvbCMW2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -38,10 +38,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.data.executor": "Run",
     "Python.dict.executor": "Run",
     "Python.list.executor": "Run",
     "Python.main.executor": "Run",
-    "Python.task.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
@@ -53,13 +53,12 @@
     "Python.task_2.executor": "Run",
     "Python.task_21.executor": "Run",
     "Python.task_23.executor": "Run",
-    "Python.task_27.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_5.executor": "Run",
     "Python.task_7.executor": "Run",
     "Python.tuple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Pract__task4",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
