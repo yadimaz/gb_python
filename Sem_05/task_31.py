@@ -5,5 +5,20 @@
 Input: 7
 Output: 21
 Задание необходимо решать через рекурсию
+0 1 1 2 3 5
 """
 
+n = 7
+fibo_p, fibo_n = 0, 1
+for _ in range(n):
+    fibo_p, fibo_n = fibo_n, fibo_p + fibo_n
+print(fibo_n)
+
+
+def func(n, fibo_p=0, fibo_n=1):
+    if n == 0:
+        return fibo_n
+    return func(n - 1, fibo_n, fibo_n + fibo_p)
+
+
+print(func(7, 0, 1))
