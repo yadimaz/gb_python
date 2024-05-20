@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d43f48-4b2c-4838-9c82-636f2299d3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_seminars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_seminars.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem_03/task_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_03/task_23.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
 }</component>
   <component name="ProjectId" id="2fMEzwRZ8Si6jUg11rT9hvbCMW2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,6 +41,7 @@
     "Python.dict.executor": "Run",
     "Python.list.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.task.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
@@ -50,6 +53,7 @@
     "Python.task_2.executor": "Run",
     "Python.task_21.executor": "Run",
     "Python.task_23.executor": "Run",
+    "Python.task_27.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_5.executor": "Run",
     "Python.task_7.executor": "Run",
