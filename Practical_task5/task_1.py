@@ -6,3 +6,25 @@
 a = 3; b = 5 -> 243 (3⁵)
 a = 2; b = 3 -> 8
 """
+
+
+
+
+# def func(a, b):
+#     res = a
+#     for _ in range(1, b):
+#         res *= a
+#     return res
+#
+#
+# print(func(a, b))
+
+
+def f(a, b, res=1):
+    if b == 0:
+        return res
+    return f(a, b - 1, res * a)
+
+
+a, b = 2, 2
+print(f(a, b))
