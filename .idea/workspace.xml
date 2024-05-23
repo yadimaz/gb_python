@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d43f48-4b2c-4838-9c82-636f2299d3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lection_2/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lection_2/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practical_task5/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical_task5/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practical_task5/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical_task5/task_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem_03/task_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_03/task_17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem_03/task_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_03/task_19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem_03/task_21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_03/task_21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem_03/task_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_03/task_23.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +53,30 @@
     "Python.task_21.executor": "Run",
     "Python.task_23.executor": "Run",
     "Python.task_3.executor": "Run",
+    "Python.task_39.executor": "Run",
+    "Python.task_41.executor": "Run",
+    "Python.task_43.executor": "Run",
+    "Python.task_45.executor": "Run",
     "Python.task_5.executor": "Run",
     "Python.task_7.executor": "Run",
     "Python.tuple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/git/Python/gb_python",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\Python\gb_python\Sem_03" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Tox" />
+      </set>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
