@@ -88,6 +88,13 @@ def read_file(file_name):
         return list(f_r)  # ящик со словарями
 
 
+def print_list(f_r):
+    i = 1
+    for line in f_r:
+        print(f"{i}. {line['first_name']} {line['second_name']} {line['phone_number']}")
+        i += 1
+
+
 def remove_row(file_name):
     search = int(input('Введите номер строки для удаления: '))
     res = read_file(file_name)
@@ -98,15 +105,28 @@ def remove_row(file_name):
         f_w.writerows(res)
 
 
+def copy_data(file_name):
+    f_copy = read_file(file_name)
+    with open(file_copy, 'w', encoding='utf-8', newline='') as data:
+        f_cw = DictWriter(data, fieldnames=['first_name', 'second_name', 'phone_number'])
+        f_cw.writeheader()
+        f_cw.writerows(f_copy)
+
+
 file_name = 'phone.csv'
+file_copy = 'phone2.csv'
 
 
 def main():
     while True:
-        print("\nСписок команд:\nq - выход\nw - запись , создание файла\nr - чтение файла\nd - удаление строки")
-        command = input('Введите команду: ')
+
+        command = input('\nh - список команд\nВведите команду: ')
         if command == 'q':
             break
+        elif command == 'h':
+            print("\nСписок команд:\nw - запись в справочник, создание справочника\nr - чтение справочника\nd - "
+                  "удаление строки из справочника\nc - резервная копия справочника\nrc - прочитать копию "
+                  "справочника\nq - выход")
         elif command == 'w':
             if not exists(file_name):
                 create_file(file_name)
@@ -115,12 +135,23 @@ def main():
             if not exists(file_name):
                 print('Файл отсутствует, пожалуйста , создайте файл')
                 continue
-            print(*read_file(file_name))
+            # print(*read_file(file_name))
+            print_list(read_file(file_name))
         elif command == 'd':
             if not exists(file_name):
                 print('Файл отсутствует, пожалуйста , создайте файл')
                 continue
             remove_row(file_name)
+        elif command == 'c':
+            if not exists(file_name):
+                print('Файл отсутствует, пожалуйста , создайте файл')
+                continue
+            copy_data(file_name)
+        elif command == 'rc':
+            if not exists(file_copy):
+                print('Файл отсутствует, пожалуйста , создайте файл')
+                continue
+            print_list(read_file(file_copy))
 
 
 main()
