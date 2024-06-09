@@ -103,6 +103,7 @@ file_name = 'phone.csv'
 
 def main():
     while True:
+        print("\nСписок команд:\nq - выход\nw - запись , создание файла\nr - чтение файла\nd - удаление строки")
         command = input('Введите команду: ')
         if command == 'q':
             break
