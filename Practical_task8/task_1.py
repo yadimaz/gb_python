@@ -71,15 +71,19 @@ def create_file(file_name):
         f_w.writeheader()
 
 
-def write_file(file_name):
+def new_item(file_name):
     user_data = get_info()
     res = read_file(file_name)
     new_obj = {'first_name': user_data[0], 'second_name': user_data[1], 'phone_number': user_data[2]}
     res.append(new_obj)
+    write_file(file_name, res)
+
+
+def write_file(file_name, str):
     with open(file_name, 'w', encoding='utf-8', newline='') as data:
         f_w = DictWriter(data, fieldnames=['first_name', 'second_name', 'phone_number'])
         f_w.writeheader()
-        f_w.writerows(res)
+        f_w.writerows(str)
 
 
 def read_file(file_name):
@@ -99,18 +103,19 @@ def remove_row(file_name):
     search = int(input('Введите номер строки для удаления: '))
     res = read_file(file_name)
     res.pop(search - 1)
-    with open(file_name, 'w', encoding='utf-8', newline='') as data:
-        f_w = DictWriter(data, fieldnames=['first_name', 'second_name', 'phone_number'])
-        f_w.writeheader()
-        f_w.writerows(res)
+    write_file(file_name, res)
 
+
+def copy_row(file_name):
+    search = int(input('Введите номер строки для копирования: '))
+    res1 = read_file(file_name)
+    res2 = read_file(file_copy)
+    res2.append(res1[search - 1])
+    write_file(file_copy, res2)
 
 def copy_data(file_name):
     f_copy = read_file(file_name)
-    with open(file_copy, 'w', encoding='utf-8', newline='') as data:
-        f_cw = DictWriter(data, fieldnames=['first_name', 'second_name', 'phone_number'])
-        f_cw.writeheader()
-        f_cw.writerows(f_copy)
+    write_file(file_copy, f_copy)
 
 
 file_name = 'phone.csv'
@@ -126,11 +131,11 @@ def main():
         elif command == 'h':
             print("\nСписок команд:\nw - запись в справочник, создание справочника\nr - чтение справочника\nd - "
                   "удаление строки из справочника\nc - резервная копия справочника\nrc - прочитать копию "
-                  "справочника\nq - выход")
+                  "справочника\nq - выход\ncr - копировать строку")
         elif command == 'w':
             if not exists(file_name):
                 create_file(file_name)
-            write_file(file_name)
+            new_item(file_name)
         elif command == 'r':
             if not exists(file_name):
                 print('Файл отсутствует, пожалуйста , создайте файл')
@@ -152,6 +157,11 @@ def main():
                 print('Файл отсутствует, пожалуйста , создайте файл')
                 continue
             print_list(read_file(file_copy))
+        elif command == 'cr':
+            if not exists(file_name):
+                print('Файл отсутствует, пожалуйста , создайте файл')
+                continue
+            copy_row(file_name)
 
 
 main()
