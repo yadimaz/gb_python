@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d43f48-4b2c-4838-9c82-636f2299d3dc" name="Changes" comment="" />
+    <list default="true" id="14d43f48-4b2c-4838-9c82-636f2299d3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical_task10/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical_task10/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem_10/task_67.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem_10/task_67.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +42,7 @@
     "Python.dict.executor": "Run",
     "Python.list.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.task.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
@@ -66,6 +71,7 @@
     "Python.task_61.executor": "Run",
     "Python.task_63.executor": "Run",
     "Python.task_65.executor": "Run",
+    "Python.task_67.executor": "Run",
     "Python.task_7.executor": "Run",
     "Python.task_dop.executor": "Run",
     "Python.tuple.executor": "Run",
