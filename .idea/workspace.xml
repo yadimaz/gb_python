@@ -66,13 +66,15 @@
     "Python.task_57.executor": "Run",
     "Python.task_59.executor": "Run",
     "Python.task_61.executor": "Run",
+    "Python.task_63.executor": "Run",
+    "Python.task_65.executor": "Run",
     "Python.task_7.executor": "Run",
     "Python.task_dop.executor": "Run",
     "Python.tuple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/git/Python/gb_python/Practical_task8",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
